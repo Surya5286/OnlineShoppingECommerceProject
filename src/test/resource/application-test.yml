@@ -1,0 +1,26 @@
+server:
+  port: 9090
+
+#-------------------------
+# MongoDB Configuration
+#-------------------------
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: "mongodb://localhost:27017/online_shopping_e-commerce_project_test"
+      auto-index-creation: true
+
+#-------------------------
+# OpenApi Configuration
+#-------------------------
+openApi:
+  dev-url: http://localhost:9090
+
+#-------------------------
+# Eureka Configuration
+#-------------------------
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false

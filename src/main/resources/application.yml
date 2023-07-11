@@ -1,0 +1,23 @@
+#server:
+#  servlet:
+#    context-path: /v1
+
+#-------------------------------
+# Spring core Properties
+#-------------------------------
+spring:
+  application:
+    name: OnlineShoppingE-CommerceProject
+  main:
+    banner-mode: log
+  profiles:
+    active: dev
+
+#-------------------------------
+# Logging Config
+#-------------------------------
+logging:
+  level:
+    com:
+      online:
+        shopping: DEBUG

@@ -1,0 +1,42 @@
+server:
+  port: 9090
+
+#-------------------------
+# MongoDB Configuration
+#-------------------------
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: "mongodb://localhost:27017/online_shopping_e-commerce_project"
+      auto-index-creation: true
+
+
+#-------------------------
+# OpenApi Configuration
+#-------------------------
+openApi:
+  dev-url: http://localhost:9090
+
+#-------------------------------
+# In-Memory/H2 DB Configuration
+#-------------------------------
+#spring:
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:testDb
+#    username: sa
+#    password: password
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    spring.jpa.database-platform: org.hibernate.dialect.MySQL8Dialect
+
+#-------------------------
+# Eureka Configuration
+#-------------------------
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
