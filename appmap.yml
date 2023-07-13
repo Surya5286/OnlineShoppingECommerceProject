@@ -1,0 +1,4 @@
+name: "OnlineShoppingE-CommerceProject"
+appmap_dir: "target/appmap"
+packages:
+- path: "com.online.shopping"
