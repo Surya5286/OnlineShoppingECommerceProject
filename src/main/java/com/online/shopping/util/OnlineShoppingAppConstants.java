@@ -1,7 +1,8 @@
 package com.online.shopping.util;
 
 public class OnlineShoppingAppConstants {
-    private OnlineShoppingAppConstants() {}
+    private OnlineShoppingAppConstants() {
+    }
 
     public static final String PRODUCT = "product";
     public static final String USERINFO = "user_info";
@@ -12,4 +13,5 @@ public class OnlineShoppingAppConstants {
     public static final String EXCEPTION_RECEIVED = "Received the exception : ";
 
     public static final String EXCEPTION_OCCURRED_PROCESSING = "Exception occurred when processing the request";
+
 }
